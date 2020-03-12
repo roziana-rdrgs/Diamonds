@@ -7,4 +7,4 @@ C:\Users\roziana\Documents\Diamantes\Diamantes\obj\Debug\Diamantes.csproj.Genera
 C:\Users\roziana\Documents\Diamantes\Diamantes\obj\Debug\Diamantes.csproj.CoreCompileInputs.cache
 C:\Users\roziana\Documents\Diamantes\Diamantes\obj\Debug\Diamantes.exe
 C:\Users\roziana\Documents\Diamantes\Diamantes\obj\Debug\Diamantes.pdb
-C:\Users\roziana\Documents\Diamantes\Diamantes\obj\Debug\Diamonds.Form1.resources
+C:\Users\roziana\Documents\Diamantes\Diamantes\obj\Debug\Diamonds.frmDiamond.resources
