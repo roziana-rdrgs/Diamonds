@@ -1,0 +1,10 @@
+C:\Users\roziana\Documents\Diamantes\Diamantes\bin\Debug\Diamantes.exe.config
+C:\Users\roziana\Documents\Diamantes\Diamantes\bin\Debug\Diamantes.exe
+C:\Users\roziana\Documents\Diamantes\Diamantes\bin\Debug\Diamantes.pdb
+C:\Users\roziana\Documents\Diamantes\Diamantes\obj\Debug\Diamantes.csprojAssemblyReference.cache
+C:\Users\roziana\Documents\Diamantes\Diamantes\obj\Debug\Diamantes.Properties.Resources.resources
+C:\Users\roziana\Documents\Diamantes\Diamantes\obj\Debug\Diamantes.csproj.GenerateResource.cache
+C:\Users\roziana\Documents\Diamantes\Diamantes\obj\Debug\Diamantes.csproj.CoreCompileInputs.cache
+C:\Users\roziana\Documents\Diamantes\Diamantes\obj\Debug\Diamantes.exe
+C:\Users\roziana\Documents\Diamantes\Diamantes\obj\Debug\Diamantes.pdb
+C:\Users\roziana\Documents\Diamantes\Diamantes\obj\Debug\Diamonds.Form1.resources
