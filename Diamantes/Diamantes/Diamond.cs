@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Diamonds
@@ -57,30 +52,12 @@ namespace Diamonds
 
                 diamond.AppendLine();
             }
-            formatText(diamond.ToString());
+            diamond.AppendLine();
+            rchDiamond.AppendText(diamond.ToString());
         }
-
-        private void formatText(string text)
-        {
-            richTextBox1.SelectionStart = richTextBox1.Text.Length;
-            richTextBox1.SelectionLength = 0;
-
-            richTextBox1.SelectionColor = Color.Red;
-            richTextBox1.AppendText(text);
-            richTextBox1.SelectionColor = richTextBox1.ForeColor;
-        }
-
         private void btnCreate_Click(object sender, EventArgs e)
         {
-            richTextBox1.Text = "";
-            if (alphabet.validate(txtLetter.Text.ToUpper()))
-                createDiamond(txtLetter.Text.ToUpper());
-   
-        }
-
-        private void txtLetter_Validated(object sender, EventArgs e)
-        {
-            richTextBox1.Text = "";
+            rchDiamond.Text = "";
             if (alphabet.validate(txtLetter.Text.ToUpper()))
                 createDiamond(txtLetter.Text.ToUpper());
         }
@@ -88,12 +65,12 @@ namespace Diamonds
         private void btnClear_Click(object sender, EventArgs e)
         {
             txtLetter.Text = "";
-            richTextBox1.Text = "";
+            rchDiamond.Text = "";
         }
 
         private void btnAll_Click(object sender, EventArgs e)
         {
-            richTextBox1.Text = "";
+            rchDiamond.Text = "";
             for (int i = 0; i < alphabet.getLenght(); i++)
             {
                 createDiamond(alphabet.getLetter(i));
@@ -101,5 +78,4 @@ namespace Diamonds
         }
     }
 
-  
 }

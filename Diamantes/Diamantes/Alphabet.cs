@@ -62,15 +62,6 @@ namespace Diamonds
                 return false;
             }
             return true;
-            //string Str = txtLetter.Text.Trim();
-            //double Num;
-            //bool isNum = double.TryParse(Str, out Num);
-
-            //if (isNum)
-            //        return false;
-            //else
-            //        return true;
-           
         }
     }
 }
